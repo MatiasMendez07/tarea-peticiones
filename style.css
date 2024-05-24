@@ -1,0 +1,27 @@
+
+header{
+    color: grey;
+}
+
+body{
+    background-color: burlywood;
+}
+
+main p{
+font-family: sans-serif;
+}
+button{
+    border-radius: 200px;
+    background-color: grey;
+    
+}
+
+article{
+    text-align: center;
+   
+}
+
+.aa{
+    margin-top: 30px;
+}
+

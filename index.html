@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="alta.php">
+</head>
+
+<body>
+    <header>
+        <h1>Alta usuario</h1>
+    </header>
+
+
+    <main>
+        <section>
+        <form action="alta.php" method="post">
+
+            <article>
+            <label for="User">
+                <p>Nombre</p>
+                <input type="text" id="User" name="User" autocomplete="on" required>
+            </label>
+</article>
+<article>
+            <label for="Apellido">
+                <p>Apellido</p>
+                <input type="text" id="Apellido" name="Apellido" required>
+            </label>
+</article>
+<article>
+            <label for="Email">
+                <p>Correo</p>
+                <input type="Email" id="Email" name="Email" autocomplete="on" required>
+            </label>
+</article>
+<article>
+            <label for="Fnac">
+                <p>Nacimiento</p>
+                <input type="date" id="Fnac" name="Fnac">
+            </label>
+</article>
+<article>
+            <label for="Tel">
+                <p>Telefono</p>
+                <input type="Tel" id="Tel" name="Tel" pattern="[0-9]{9}">
+            </label>
+        </article>
+    <article>
+            <label for="Gen">
+                <p>Genero</p>
+                <input type="radio" value="H" id="Gen" name="gen">H
+                <input type="radio" value="M" id="Gen" name="gen">M
+                <input type="radio" value="O" id="Gen" name="gen">O
+            </label>
+        </article>
+<article>
+            <label for="Paises">
+                <p>Seleccione su pais</p>
+                <select name="Paises" id="">
+                    <option value="Uru" selected>Uruguay</option>
+                    <option value="Br" >Brasil</option>
+                    <option value="Ch">Chile</option>
+                    <option value="Pr">Peru</option>
+                    <option value="Pa" >Paraguay</option>
+                    <option value="Bl">Bolivia</option>
+                    <option value="Cb">Cuba</option>
+                    <option value="Cr">Colombia</option>
+                    <option value="Ar">Argentina</option>
+                </select>
+            </label>
+</article>
+<article class="aa">
+            <label for="Boton">
+                <button type="submit" id="Boton">Dar de alta</button>
+            </label>
+            </article>
+        </form>
+</section>
+    </main>
+
+
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
